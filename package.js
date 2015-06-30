@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   // Export Accounts (etc) to packages using this one.
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth@1.1.5', ['client', 'server']);
-  api.use('merlin:edmodo@0.9.0', ['client', 'server']);
+  api.use('merlin:edmodo@0.9.1', ['client', 'server']);
 
   api.addFiles('edmodo_login_button.css', 'client');
 
