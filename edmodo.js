@@ -13,11 +13,8 @@ if (Meteor.isClient) {
   };
 }
 else {
-/*
   Accounts.addAutopublishFields({
-    forLoggedInUser: [''],
+    forLoggedInUser: ['services.edmodo'],
     forOtherUsers: ['']
   });
-*/
 }
-

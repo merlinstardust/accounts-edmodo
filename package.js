@@ -2,7 +2,7 @@ Package.describe({
   name: 'merlin:accounts-edmodo',
   summary: 'Login service for Edmodo accounts',
   git: 'https://github.com/merlinpatt/accounts-edmodo',
-  version: '0.9.0',
+  version: '0.9.1',
   documentation: 'README.md'
 });
 
